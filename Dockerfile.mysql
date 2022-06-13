@@ -1,0 +1,4 @@
+FROM nginx:latest
+LABEL maintainer = "Rafa, Heber, Kevin"
+EXPOSE 3606
+CMD ["mysql", "run"]
